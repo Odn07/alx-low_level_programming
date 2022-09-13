@@ -1,13 +1,14 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
+*_putchar - writes c to stdout
+*@c: The character to print
+*
+* Return: On success return 1.
+* On error, -1 is returned.
+*/
 
-int main(void)
+int _putchar(char c)
 {
-	printf("_putchar");
-	return (0);
+	return (write(1, &c, 1));
 }
