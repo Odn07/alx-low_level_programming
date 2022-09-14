@@ -1,0 +1,16 @@
+#!/bin/bash
+date
+
+#Get file name from user and store in variable x.
+read -p "Enter file name: " x
+
+#Get content from user and store in variable y.
+read -p "Enter file content: " y 
+
+#Create a file with the file name stored in variable x.
+#Transfer the content store in variable y into it.
+echo $y >> $x
+
+echo -e "\n"
+#Display a message to show that the operation is successful.
+echo -e 'Your file is created!\nWelcome to "Doing hard things community!!"'
