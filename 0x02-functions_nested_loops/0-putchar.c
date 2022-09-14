@@ -1,9 +1,10 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
  * main - check the code.
- *
+*
+* Description: Code prints alphabet in lowercase
+*
  * Return: Always 0.
  */
 int main(void)
