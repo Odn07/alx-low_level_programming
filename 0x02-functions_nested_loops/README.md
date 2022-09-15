@@ -12,3 +12,4 @@ g0x02. C-Functions, nested loops
 9. 9-times_table.c: A function that prints the 9 times table, starting with 0.
 10. 10-add.c: Write a function that adds two integers and returns the result.
 11. 11-print_to_98.c: Write a function that prints all natural numbers from n to 98, followed by a new line.
+12. 100-times_table.c: Write a function that prints the n times table, starting with 0
