@@ -23,3 +23,4 @@ General
 
 1. TASKS 0: Test of the function positive_or_negative() gives a negative and positive integers.
 2. TASKS 1: Comment out the line from the code causing the code to go into infinite loop.
+3. TASKS 2: This program prints the largest of three integers.
