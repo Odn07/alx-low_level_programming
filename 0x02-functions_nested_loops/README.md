@@ -6,3 +6,5 @@
 4. 3-islower.c: Checks for lowercase character.
 5. 4-isalpha.c: Function that checks for alphabetic character.
 6. 6-abs.c: A function that computes the absolute value of an interger.
+7. 7-print_last_digit.c: Write a function that prints the last digit of a number.
+
