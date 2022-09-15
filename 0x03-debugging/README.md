@@ -22,3 +22,4 @@ General
 * A README.md file, at the root of the folder of this project (i.e. 0x03-debugging), describing what this project is about
 
 1. TASKS 0: Test of the function positive_or_negative() gives a negative and positive integers.
+2. TASKS 1: Comment out the line from the code causing the code to go into infinite loop.
