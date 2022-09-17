@@ -10,18 +10,19 @@
 */
 int _isdigit(int c)
 {
-	int num;
+	char i;
+	int isdigit;
 
-	for (c = 0; c <= 9; c++)
+	for (i = 0; i < 9; i++)
 	{
 		if (isdigit(c))
 		{
-			num = 1;
+			isdigit = 1;
 		}
 		else
 		{
-			num = 0;
+			isdigit = 0;
 		}
-}
-	return (num);
+	}
+	return (isdigit);
 }
