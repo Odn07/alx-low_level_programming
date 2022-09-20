@@ -8,20 +8,19 @@
 *
 *Return: Always 0
 */
+
 void rev_string(char *s)
 {
-	char *strl = s;
+	int len = 0, i = 0;
+	char aux;
 
-	while (*strl)
-	{
-		strl++;
-	strl -= 1;
-	}
-	while (strl)
-	{
-		_putchar(*s);
-		strl--;
-	}
-	_putchar('\n');
+	while (s[len] != '\0')
+		len++;
 
+	while (i < len--)
+	{
+		aux = s[i];
+		s[i++] = s[len];
+		s[len] = aux;
+	}
 }
