@@ -10,29 +10,14 @@
 * negative if first string is shorter;
 * and positive if first string is longer.
 */
-
 int _strcmp(char *s1, char *s2)
 {
-	int i, j, result;
-
-	for (i = 0; s1[i] != '\0'; i++)
+	while (*s1 && *s2)
 	{
-		for (j = 0; s2[j] != '\0'; j++)
-		{
-			if (s1[i] < s2[j])
-			{
-				result = -15;
-			}
-			else if (s1[i] == s2[j])
-			{
-				result = 0;
-			}
-			else
-			{
-				result = 15;
-			}
-		}
+		if (*s1 != *s2)
+			return (*s1 - *s2);
+		s1++, s2++;
 	}
-	return (result);
+	return (*s1 - *s2);
 }
 
