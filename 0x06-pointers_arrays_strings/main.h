@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 
-
+char *leet(char *);
 char *cap_string(char *s);
 int get_seperator(char c);
 char *_strncpy(char *dest, char *src, int n);
