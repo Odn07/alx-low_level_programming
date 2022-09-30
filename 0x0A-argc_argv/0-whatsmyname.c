@@ -5,6 +5,8 @@
 * followed by a newline.
 * @argc: number of argument passed into main
 * @argv: pointer to array of argument passed into main.
+*
+* Return: Always 0.
 */
 
 int main(int argc, char *argv[])
