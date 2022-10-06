@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+char **strtow(char *str);
+char *argstostr(int ac, char **av);
 void free_grid(int **grid, int height);
 int **alloc_grid(int width, int height);
 char *str_concat(char *s1, char *s2);
