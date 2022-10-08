@@ -5,7 +5,7 @@
 *
 * @b: positive interger argument
 *
-* Returns: a void pointer to the allocated memory.
+* Return: a void pointer to the allocated memory.
 *
 */
 
